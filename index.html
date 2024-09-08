@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+<!-- this actually isn't in the original, but we have to do it since the porkbun one doesn't dynamically do it -->
+<script>
+  website = document.getElementById("website");
+  website.firstChild.data = location.host;
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>porkbun.com | parked domain</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row" style="margin-left:0px; margin-right:0px;">
+      <div class="col-md-4 col-md-offset-4 text-center">
+        <h1>Parked on the Bun!</h1>
+        <center>
+            <object class="img-responsive" data="https://porkbun-media.s3-us-west-2.amazonaws.com/tld-buns/_best.svg">
+                <img class="img-responsive" src="/images/parked-on-the-bun.png">
+            </object>
+	</center>
+	<br>
+        <p style="text-align:center;"><strong id="website">example.com</strong> has been registered at <a href="https://porkbun.com">Porkbun</a> but the owner has not put up a site yet. Visit again soon to see what amazing website they decide to build.</p>
+	<div class="well" style="margin-top:30px;">
+	  <form method="GET" action="https://porkbun.com/checkout/search">
+	    <div class="form-group">
+	      <label for="q">Find your own great domain:</label>
+	      <input class="form-control" type="text" id="q" name="q" placeholder="find your domain...">
+	    </div>
+	    <button type="submit" class="btn btn-porkbun">Submit</button>
+  	  </form>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
