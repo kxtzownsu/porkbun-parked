@@ -3,13 +3,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
-<!-- this actually isn't in the original, but we have to do it since the porkbun one doesn't dynamically do it -->
-<script>
-  website = document.getElementById("website");
-  website.firstChild.data = location.host;
-</script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,5 +33,10 @@
 	</div>
       </div>
     </div>
+<!-- this actually isn't in the original, but we have to do it since the porkbun one doesn't dynamically do it -->
+<script>
+  website = document.getElementById("website");
+  website.firstChild.data = location.host;
+</script>
   </body>
 </html>
